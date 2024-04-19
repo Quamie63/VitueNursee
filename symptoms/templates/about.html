@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+
+    {% if section == 'features' %}
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <p>This is the features section. Add your content here.</p>
+    </section>
+    {% elif section == 'about' %}
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>This is the about section. Add your content here.</p>
+    </section>
+    {% endif %}
+
+</div>
+{% endblock %}

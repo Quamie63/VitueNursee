@@ -1,0 +1,40 @@
+
+      body {
+        background-color: #f8f9fa;
+      }
+      .navbar {
+        background-color: transparent !important;
+      }
+      .carousel-item {
+        height: 100vh;
+        background: #777;
+        color: white;
+        position: relative;
+      }
+      .container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 50px;
+        color: #fff;
+      }
+      .overlay-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+      }
+      .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+      }
+      .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      }
